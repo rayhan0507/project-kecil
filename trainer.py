@@ -13,12 +13,14 @@ def list_baru(a):
 result = list_baru(a)
 print(result)
 
+# hello world
 def greet():            
     return "hello world"
 
 result = greet()
 print(result)
 
+# mengubah boolean ke string
 def boolean_to_string(b):
     if b == True:
         return "True"
