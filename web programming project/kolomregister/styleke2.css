@@ -1,0 +1,13 @@
+@font-face {
+    font-family: fontbebas;
+    src:url(bebas.ttf)
+}
+
+.tema {
+    text-align: center;
+}
+
+h1 {
+    font-family: fontbebas;
+    text-align: center;
+}
