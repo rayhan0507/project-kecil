@@ -1,0 +1,37 @@
+@font-face {
+    font-family: bebas;
+    src:url(bebas.ttf)
+}
+
+body {
+    text-align: center;
+    background-color: rgb(212, 229, 233);
+}
+
+.italic {
+   font-style: italic;
+    
+}  
+
+
+.bold {
+    font-weight: bold;  
+}
+
+button {
+    border-radius: 10px;
+    border-color: white;
+    border: 0px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: bebas;
+    font-size: 19px;
+    background-color: rgb(78, 78, 212);
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.fontsaya {
+    font-family: bebas;
+}
