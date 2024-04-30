@@ -1,0 +1,54 @@
+@font-face {
+    font-family: fontsaya;
+    src:url(bebas.ttf)
+}
+
+body {
+    text-align: center;
+}
+
+.h1.font {
+    font-family: fontsaya;
+    font-size: 70px; 
+   
+}
+
+.font {
+    font-family: fontsaya;
+}
+
+#place {
+    margin-right: 70px;
+    
+}
+
+
+.input.padding {
+    padding: 10px; 
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.button.padding {
+    padding: 10px 71px; 
+    margin-bottom: 10px; 
+    margin: auto;
+    
+}
+
+.button.feedback {
+    padding: 10px 34px; 
+    margin-top: 20px;
+    display: block;
+    margin: auto; 
+}
+
+.textarea.padding { 
+    padding: 10px; 
+    display: block;
+    margin: auto; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+}
