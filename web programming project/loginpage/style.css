@@ -1,0 +1,54 @@
+@font-face {
+    font-family: fontsaya;
+    src:url(Quicksand_Book.otf)
+}
+
+.font {
+    font-family: fontsaya;
+}
+
+.login {
+    position: relative;
+    top: 20px;
+    right: 50px;
+    margin-top: -10px;
+    
+}
+
+.container {
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    text-align: center;
+    height: 230px; 
+    flex-direction: column;
+    background-color: azure;
+    margin-left: 840px;
+    margin-right: 866px;
+    margin-top: 300px;
+    border-radius: 10px;
+    font-family: fontsaya;
+    
+    
+}
+
+.item {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    width: 150px;
+    border-radius: 7px;
+    
+    
+}
+
+.item-button {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    width: 173px;
+    border-radius: 7px;
+    
+}
+
