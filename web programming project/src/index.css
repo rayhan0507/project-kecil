@@ -1,0 +1,17 @@
+@font-face {
+  font-family: fontsaya;
+  src: url(Quicksand_Book.otf);
+}
+
+.header {
+  font-family: fontsaya;
+}
+
+.div1 {
+  background-color: cadetblue;
+  height: 210px;
+  text-align: center;
+  width: 400px;
+  border-radius: 5%;
+  margin-left: 750px;
+}
