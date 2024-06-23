@@ -1,0 +1,104 @@
+@font-face {
+  font-family: fontsaya;
+  src: url(Quicksand_Book.otf);
+}
+
+body{
+  background: url(./assets/998e055aba57c24138220937cc5166ab.gif);
+}
+
+.font {
+  font-family: fontsaya;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid rgb(138, 130, 130) 1px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  margin-top: 250px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  
+}
+
+.input {
+  border-radius: 30px;
+  height: 30px;
+  border: solid rgb(138, 130, 130) 1px;
+  background: transparent;
+  padding: 5px 0px 0px 15px;
+  width: 340px;
+  position: relative;
+  left: 23px;
+  height: 50px;
+
+
+}
+
+.blue {
+  color: rgb(60, 135, 247);
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.icon {
+  position: relative;
+  left: 350px;
+  bottom: 37px;
+}
+
+.container h1 {
+  color: white;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input::placeholder{
+  color: white;
+  font-size: 20px;
+}
+
+
+.white {
+  color: white;
+}
+
+#kosong{
+  border-radius: 30px;
+  height: 50px;
+  border: solid white 1px;
+  background-color: white;
+  padding: 5px 0px 0px 15px;
+  position: relative;
+  left: 30px;
+}
+
+.forgot {
+  position: relative;
+  right: 10px;
+}
+
+.checkbox1 {
+  position: relative;
+  left: 20px;
+}
