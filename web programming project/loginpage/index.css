@@ -52,8 +52,10 @@ body{
 
 .icon {
   position: relative;
-  left: 350px;
-  bottom: 37px;
+  left: 340px;
+  bottom: 46px;
+  font-size: 30px;
+  
 }
 
 .container h1 {
@@ -101,4 +103,10 @@ input::placeholder{
 .checkbox1 {
   position: relative;
   left: 20px;
+}
+
+button:hover{
+  box-shadow: 0 0 50px white,
+  0 0 50px white, 0 0 50px white,
+  0 0 50px white, 0 0 50px white;
 }
