@@ -1,0 +1,49 @@
+@font-face {
+    font-family: fontsaya;
+    src: url(Quicksand_Book.otf);
+}
+
+body{
+    background: url(assets/pemandangan.jpg);
+    background-size: cover;
+    background-position: center 20%;
+}
+
+.font{
+    font-family: fontsaya;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 350px;
+    width: 500px;
+    margin-left: 900px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    background: transparent;
+    
+    
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    flex-basis: 40px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+    padding-bottom: 0px;
+    border: 1px solid transparent;
+    background: rgba(255, 255, 255, 0.3)
+}
+
+input::placeholder{
+    font-size: 20px;
+    padding-left: 30px;
+    
+}
