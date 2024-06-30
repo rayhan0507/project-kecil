@@ -1,98 +1,112 @@
 @font-face {
   font-family: fontsaya;
   src: url(Quicksand_Book.otf);
-
 }
 
-body {
-  background: url(assets/wallpaper4k.gif);
-  background-size: cover;
-}
-
-h1 {
-  position: relative;
-  bottom: 50px;
-  font-size: 50px;
-  margin-bottom: -0px;
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  width: 600px;
-  background-color: rgb(229, 242, 238);
-  height: 600px;
-  border-radius: 30px;
-  margin-left: 900px;
-  margin-top: 250px;
-  min-height: 30vh;
-  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  background: transparent;
-  padding-top: 50px;
-  
+body{
+  background: url(./assets/998e055aba57c24138220937cc5166ab.gif);
 }
 
 .font {
   font-family: fontsaya;
 }
 
+.container {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  background-color: aquamarine;
+  border-radius: 20px;
+  margin-top: 250px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  
+}
+
+.input {
+  border-radius: 30px;
+  height: 30px;
+  border: solid rgba(255, 255, 255, 0.1) 1px;
+  background: transparent;
+  padding: 5px 0px 0px 15px;
+  width: 340px;
+  position: relative;
+  left: 23px;
+  height: 50px;
+
+
+}
+
+.blue {
+  color: rgb(60, 135, 247);
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.icon {
+  position: relative;
+  left: 340px;
+  bottom: 46px;
+  font-size: 30px;
+  
+}
+
+.container h1 {
+  color: white;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+}
+
 .bold {
   font-weight: bold;
+  font-size: 20px;
 }
+
+input::placeholder{
+  color: white;
+  font-size: 20px;
+}
+
 
 .white {
   color: white;
 }
 
-input {
-   margin-top: 50px;
-   width: 500px;
-   margin-left: 45px;
-   min-height: 3vh;
-   border-radius: 20px;
-   border: solid white;
-   font-size: 25px;
-}
-
-input::placeholder {
-  font-size: 25px;
-  padding-left: 110px;
-  
-}
-
-select {
-   margin-top: 50px;
-   width: 514px;
-   margin-left: 45px;
-   min-height: 4vh;
-   border-radius: 20px;
-   border: solid white;
-   cursor: pointer;
-   font-size: 25px;
-}
-
-button {
-  margin-top: 50px;
-  width: 514px;
-  margin-left: 45px;
-  min-height: 4vh;
-  border-radius: 20px;
-  border: solid white ;
-  cursor: pointer;
+#kosong{
+  border-radius: 30px;
+  height: 50px;
+  border: solid white 1px;
   background-color: white;
-  font-size: 25px;
+  padding: 5px 0px 0px 15px;
+  position: relative;
+  left: 30px;
 }
 
-button:hover {
-  border: solid rgb(91, 40, 166);
+.forgot {
+  position: relative;
+  right: 10px;
 }
 
-.ukuran-font {
-  font-size: 30px;
+.checkbox1 {
+  position: relative;
+  left: 20px;
 }
 
-.khodam-color {
-  color: rgb(91, 40, 166);
+button:hover{
+  box-shadow: 0 0 50px white,
+  0 0 50px white, 0 0 50px white,
+  0 0 50px white, 0 0 50px white;
 }
