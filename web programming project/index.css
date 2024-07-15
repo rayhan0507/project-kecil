@@ -1,0 +1,114 @@
+@font-face {
+  font-family: quicksand;
+  src: url(Quicksand_Book.otf);
+}
+
+body {
+  background: url(assets/neon.gif);
+  background-size: cover;
+
+}
+
+.icon-reload {
+  color: white;
+  background-color: rgb(161, 48, 161);
+  font-size: 20px;
+}
+
+.button-reload {
+  background-color: rgb(161, 48, 161);
+  border: solid 0px;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 180px;
+  bottom: 30px;
+  border-radius: 0px 30px 0px 10px;
+  cursor: pointer;
+  
+}
+
+.font {
+  color: rgb(161, 48, 161);
+}
+
+.font-style {
+  font-family: quicksand;
+}
+
+h1 {
+  padding-bottom: 100px;
+}
+
+
+.container {
+  background-color: white;
+  background: transparent;
+  margin-left: 1000px;
+  font-family: quicksand;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+  margin-top: 25vh;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.input{
+  border-radius: 30px;
+  height: 40px;
+  width: 250px;
+  margin-bottom: 10px;
+  border: solid 0px;
+  font-size: 20px;
+  color: rgb(161, 48, 161);
+  position: relative;
+  bottom: 60px;
+  padding-left: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+input::placeholder{
+  color: rgb(161, 48, 161);
+  font-size: 20px;
+}
+
+.input:hover {
+  transform: scale(1.05); /* Skala input saat hover */
+}
+
+.button {
+  border-radius: 30px;
+  height: 50px;
+  width: 280px;
+  background-color: rgb(161, 48, 161);
+  border: solid 0px;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  bottom: 60px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.1s ease-in-out;/* Transisi untuk box-shadow */
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 5px rgb(161, 48, 161), 0 0 25px rgb(161, 48, 161);
+}
+
+button:hover{
+  box-shadow: 0 0 50px rgb(161, 48, 161),
+  0 0 10px rgb(161, 48, 161), 0 0 10px rgb(161, 48, 161),
+  0 0 10px rgb(161, 48, 161), 0 0 50px rgb(161, 48, 161);
+  transform: scale(1.05);
+  
+}
+
+.digit {
+  font-size: 20px;
+  color: rgb(141, 74, 74);
+}
