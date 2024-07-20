@@ -12,7 +12,8 @@ const App = () => {
     "Farhan Kebab",
     "Nugget Gedagedigedageda'o",
     "Orangkulithitamberbulu635",
-    "Topi Malas"
+    "Topi Malas",
+    "bochi ireng",
   ];
 
   const inputChange = (event) => {
