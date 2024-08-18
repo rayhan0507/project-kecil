@@ -1,0 +1,31 @@
+.data-diri-container {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width: 700px;
+    height: 500px;
+    margin-top: 140px;
+    gap: 30px;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.pilih-provinsi {
+    width: 350px;
+}
+
+.provinsi-container-select {
+    gap: 34px
+}
+
+.gender-radiobutton {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
